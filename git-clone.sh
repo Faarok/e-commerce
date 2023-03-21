@@ -1,10 +1,6 @@
-echo "Enter username : "
-read user_name
-echo "Enter repo name : "
-read repo_name
-echo "New username : "
-read new_user
-echo "New repository name : "
+echo "Enter repo to clone (user/repo_name) : "
+read repo
+git clone https://github.com/${repo}
+echo "Enter your new repo (user/repo_name) : "
 read new_repo
-git clone https://github.com/${user_name}/${repo_name}
-git remote add origin https://github.come/${new_user}/${new_repo}
+git remote add origin https://github.come/${new_repo}

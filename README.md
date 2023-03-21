@@ -31,7 +31,7 @@
 
 ***
 
-## **git.sh**
+## **git-new.sh**
 ***
 
 ### *What's required ?*
@@ -44,8 +44,19 @@
         `sudo dnf install git-all` (if on RPM based OS)
 
 ### *What does it do ?*
-The classic `git init` etc. I'm just very lazy, ngl.
+The classic `git init` on your new repository. I'm just very lazy, ngl.
 
 ***
+
+## **git-clone.sh**
+***
+
+### *What does it do ?*
+1. Requests the repository to clone.
+2. Requests your new repository.
+3. Connect your local repo to your distant repo.
+
+***
+
 > For now, that's all. I'll add more tiny scripts like this in the future, depending on which projects i'll do. <br>
 Some `composer` command will be added to thiso one.
